@@ -1,0 +1,11 @@
+<record model="ir.model.fields" id="x_cliente_nit">
+    <field name="name">NIT</field>
+    <field name="model">res.partner</field>
+    <field name="ttype">char</field>
+</record>
+
+<record model="ir.model.fields" id="x_cliente_profesion">
+    <field name="name">Profesión</field>
+    <field name="model">res.partner</field> 
+    <field name="ttype">char</field>
+</record>

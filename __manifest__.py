@@ -20,17 +20,17 @@
 ##############################################################################
 
 {
-    'name': 'Father MFH',
+    'name': 'App AJM',
     'version': '16.0.1.0.0',
-    'author': 'Marlon Falcon Hernandez',
+    'author': 'Alain Alberto Vinas',
     'maintainer': 'Marlon Falcon Hernandez',
-    'website': 'http://www.marlonfalcon.com',
+    'website': 'http://www.simplytechsolution.com',
     'license': 'AGPL-3',
     'category': 'Extra Tools',
     'summary': 'Short summary.',
-    'depends': ['base'],
+    'depends': ['base', 'res.partner'],
     'data': [
-        'views/view.xml',
+        'views/webclient_templates.xml',
     ],
     'images': ['static/description/banner.png'],
 }
