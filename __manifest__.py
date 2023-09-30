@@ -23,7 +23,7 @@
     'name': 'App AJM',
     'version': '16.0.1.0.0',
     'author': 'Alain Alberto Vinas',
-    'maintainer': 'Marlon Falcon Hernandez',
+    'maintainer': 'ALain Alberto Vinas',
     'website': 'http://www.simplytechsolution.com',
     'license': 'AGPL-3',
     'category': 'Extra Tools',
@@ -31,6 +31,7 @@
     'depends': ['base', 'res.partner'],
     'data': [
         'views/webclient_templates.xml',
-    ],
-    'images': ['static/description/banner.png'],
+        'data/ir_model_fields.xml',
+     ],
+    'images': [],
 }
