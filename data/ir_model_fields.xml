@@ -2,79 +2,79 @@
 
 <record model="ir.model.fields" id="x_cliente_ssn">
     <field name="name">SSN</field>
-    <field name="model">res.partner</field>
+    <field name="model">res_partner</field>
     <field name="ttype">char</field>
 </record>
 
 <record model="ir.model.fields" id="x_cliente_ein">
     <field name="name">EIN</field>
-    <field name="model">res.partner</field> 
+    <field name="model">res_partner</field> 
     <field name="ttype">char</field>
 </record>
 
 <record model="ir.model.fields" id="x_cliente_usdot">
     <field name="name">US_DOT</field>
-    <field name="model">res.partner</field> 
+    <field name="model">res_partner</field> 
     <field name="ttype">char</field>
 </record>
 
 <record model="ir.model.fields" id="x_cliente_pin">
     <field name="name">US_DOT Pin</field>
-    <field name="model">res.partner</field> 
+    <field name="model">res_partner</field> 
     <field name="ttype">char</field>
 </record>
 
 <record model="ir.model.fields" id="x_cliente_user">
     <field name="name">US_DOT User</field>
-    <field name="model">res.partner</field> 
+    <field name="model">res_partner</field> 
     <field name="ttype">char</field>
 </record>
 
 <record model="ir.model.fields" id="x_cliente_pasw">
     <field name="name">US_DOT Password</field>
-    <field name="model">res.partner</field> 
+    <field name="model">res_partner</field> 
     <field name="ttype">char</field>
 </record>
 
 <record model="ir.model.fields" id="x_cliente_secut_quest">
     <field name="name">Security questions</field>
-    <field name="model">res.partner</field> 
+    <field name="model">res_partner</field> 
     <field name="ttype">char</field>
 </record>
 
 <record model="ir.model.fields" id="x_cliente_mc">
     <field name="name">MC</field>
-    <field name="model">res.partner</field> 
+    <field name="model">res_partner</field> 
     <field name="ttype">char</field>
 </record>
 
 <record model="ir.model.fields" id="x_cliente_tdmv">
     <field name="name">TDMV</field>
-    <field name="model">res.partner</field> 
+    <field name="model">res_partner</field> 
     <field name="ttype">char</field>
 </record>
 
 <record model="ir.model.fields" id="x_cliente_login">
     <field name="name">Login</field>
-    <field name="model">res.partner</field> 
+    <field name="model">res_partner</field> 
     <field name="ttype">char</field>
 </record>
 
 <record model="ir.model.fields" id="x_cliente_pass">
     <field name="name">Pass</field>
-    <field name="model">res.partner</field> 
+    <field name="model">res_partner</field> 
     <field name="ttype">char</field>
 </record>
 
 <record model="ir.model.fields" id="x_cliente_uin">
     <field name="name">UIN</field>
-    <field name="model">res.partner</field> 
+    <field name="model">res_partner</field> 
     <field name="ttype">char</field>
 </record>
 
 <record model="ir.model.fields" id="x_cliente_taxid">
     <field name="name">TaxID</field>
-    <field name="model">res.partner</field> 
+    <field name="model">res_partner</field> 
     <field name="ttype">char</field>
 </record>
 
