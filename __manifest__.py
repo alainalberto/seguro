@@ -2,7 +2,7 @@
 #
 #    OpenERP, Open Source Management Solution
 #    This module copyright (C) 2018 Marlon Falcon Hernandez
-#    (<http://www.marlonfalcon.com>).
+#    (<http://www.simplytechsolution.com>).
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -28,13 +28,12 @@
     'license': 'AGPL-3',
     'category': 'Extra Tools',
     'summary': 'Short summary.',
-    'depends': ['base', 'partner'],
+    'depends': ['base','base_setup'],
     'data': [
         'views/webclient_templates.xml',
         
         'data/ir_model_fields.xml',
 
-        'models/partner.py',
      ],
     'images': [],
     
