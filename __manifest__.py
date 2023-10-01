@@ -31,8 +31,6 @@
     'depends': ['account','base_setup', 'base'],
     'data': [
         'views/webclient_templates.xml',
-        
-        'data/ir_model_fields.xml',
 
      ],
     'images': [],
