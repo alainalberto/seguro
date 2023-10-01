@@ -28,10 +28,15 @@
     'license': 'AGPL-3',
     'category': 'Extra Tools',
     'summary': 'Short summary.',
-    'depends': ['base', 'res.partner'],
+    'depends': ['base', 'partner'],
     'data': [
         'views/webclient_templates.xml',
+        
         'data/ir_model_fields.xml',
+
+        'models/partner.py',
      ],
     'images': [],
+    
+
 }
