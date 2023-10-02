@@ -28,7 +28,7 @@
     'license': 'AGPL-3',
     'category': 'Extra Tools',
     'summary': 'Short summary.',
-    'depends': ['account','base_setup', 'base'],
+    'depends': ['account','base_setup', 'base', 'contacts'],
     'data': [
         'views/webclient_templates.xml',
 
