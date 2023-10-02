@@ -1,9 +1,9 @@
 from odoo import models, fields
 
 
-class Partner(models.Model):
+class ResPartner(models.Model):
      _name = 'res.partner'
-     _inhert = 'res.partner'
+     _inhert = ['res.partner','partner']
 
      x_cliente_ssn = fields.Char(string="Social Security Number")
      x_cliente_ein = fields.Char(string="EIN")
