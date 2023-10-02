@@ -2,6 +2,7 @@ from odoo import models, fields
 
 
 class Partner(models.Model):
+     _name = 'res.partner.add'
      _inhert = 'res.partner'
 
      x_cliente_ssn = fields.Char(string="Social Security Number")
