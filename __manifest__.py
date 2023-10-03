@@ -30,10 +30,19 @@
     'summary': 'Short summary.',
     'depends': ['account','base_setup', 'base', 'contacts'],
     'data': [
-        'views/webclient_templates.xml',
+        'account_customer_ext/views/webclient_templates.xml',
+        'account_customer_ext/views/res_partner.xml',
 
      ],
     'images': [],
+    #'assets': {
+    #    'account.assets':[
+    #        'account_customer_ext/static/src/js/models.js',
+    #    ],
+    #    'web.assets_qweb': [
+    #        'account_customer_ext/static/src/xml/**/*',
+    #    ],
+    #},
     
 
 }
