@@ -30,8 +30,8 @@
     'summary': 'Short summary.',
     'depends': ['account','base_setup', 'base', 'contacts'],
     'data': [
-        'account_customer_ext/views/webclient_templates.xml',
-        'account_customer_ext/views/res_partner.xml',
+        '/views/webclient_templates.xml',
+        '/views/res_partner.xml',
 
      ],
     'images': [],
