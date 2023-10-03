@@ -6,10 +6,9 @@
         <field name="model">res.partner</field>
         <field name="priority" eval="1"/>
         <field name="inherit_id" ref="base.view_partner_form"/>
-        <field name="arch" type="xml"/>
-           <form>
+        <field name="arch" type="xml">
+            <form string="Contact">
                 <!-- Añade los campos que desees mantener -->
-                <field name="x_cliente_ssn"/>
                 <field name="x_cliente_mc"/>
                 <field name="x_cliente_tdmv"/>
                 <field name="x_cliente_login"/>
@@ -21,9 +20,9 @@
                 <field name="x_cliente_user"/>
                 <field name="x_cliente_pasw"/>
                 <field name="x_cliente_secut_quest"/>
-                
+                <field name="x_cliente_ssn"/>
             </form>
-        
+        </field>
     </record>
 
 </odoo>
