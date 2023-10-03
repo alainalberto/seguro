@@ -30,9 +30,6 @@
                </group>
             
            </xpath>
-           <xpath expr="//form[1]/sheet[1]/group[1]/group[2]" position="inside">
-               <field name="x_cliente_ssn"></field>
-           </xpath>
         
     </record>
 
